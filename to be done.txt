@@ -1,0 +1,7 @@
+- fade in/fade out effects
+- Automatyczne usuwanie ciszy
+	Cel: Znajdź i usuń fragmenty ciszy w pliku audio.
+	Działanie: Skrypt analizuje ścieżkę, identyfikuje fragmenty ciszy (np. poniżej -40 dB przez co najmniej 1 sekundę) i usuwa je automatycznie.
+	Funkcjonalność:
+	Analiza poziomu głośności (threshold).
+	Usuwanie wykrytych fragmentów.
